@@ -70,11 +70,11 @@ function App() {
 
   return (
   
-      <section className="card">
+      <div className="card">
         {gatos.map((gato, index) => {
           return <Card key={index} info={gato} />
         })}
-      </section>
+      </div>
    
   );
 }
